@@ -42,8 +42,7 @@ checkBtn.addEventListener("click", function () {
 });
 
 //reset
-let reset = againBtn.addEventListener("click", () => {
-  console.log("reset");
+againBtn.addEventListener("click", function () {
   scoreNumber = 20;
   secretNumber = Math.floor(Math.random() * 20 + 1);
   message.textContent = "Start guessing...";
